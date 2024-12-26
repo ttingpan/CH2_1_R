@@ -13,6 +13,7 @@
 
 ```c#
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -33,7 +34,7 @@ void PrintArr(string printString, int arr[], int size)
 
 // 버블 정렬 사용
 // 오름차순
-int *SortUP(int arr[], int size)
+int* SortUP(int arr[], int size)
 {
 	int key;
 
@@ -62,7 +63,7 @@ int *SortUP(int arr[], int size)
 
 // 삽입 정렬 사용
 // 내림차순
-int *SortDown(int arr[], int size)
+int* SortDown(int arr[], int size)
 {
 	int key;
 
